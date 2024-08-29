@@ -14,7 +14,7 @@ To get started with JobSphere, follow these steps:
 
 Clone the repository:
 bash
-
+```
 Copy
 git clone https://github.com/yourusername/jobsphere.git
 Install the necessary dependencies:
