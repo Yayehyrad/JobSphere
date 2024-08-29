@@ -1,8 +1,9 @@
 # JobSphere
-Description
+``` markdown
+## Description
 Welcome to JobSphere, your go-to platform for connecting job seekers with employers in Ethiopia. This project aims to create a vibrant job marketplace that simplifies the job search process while empowering users with the tools they need for career advancement.
 
-Features
+## Features
 Intuitive Interface: A user-friendly design that enhances the experience for both job seekers and employers.
 Comprehensive Job Listings: Explore a diverse range of job opportunities across multiple sectors in Ethiopia.
 Advanced Search and Filter: Quickly find jobs that align with your skills, location, and career goals.
@@ -20,12 +21,10 @@ Install the necessary dependencies:
 bash
 
 Copy
-npm install
-Run the application:
-bash
-
-Copy
-npm start
+``` JavaScript
+    npm install
+    npm start
+``` 
 Contributing
 We welcome contributions! Please read our Contributing Guidelines for details on how to get involved.
 
