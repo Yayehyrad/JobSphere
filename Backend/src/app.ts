@@ -2,6 +2,7 @@ import express from "express";
 import bodyParser from "body-parser";
 import cors from "cors";
 import cookieParser from "cookie-parser";
+import User from "./models/user.model";
 
 const app = express();
 
@@ -14,6 +15,12 @@ app.use(cors({
     credentials : true
 }));
 app.get("/", (req , res) => {
+  // const user = new User({
+  //   name : "adsf", 
+  //   email : "adf",
+  //   avatar : "adsf"
+  // })
+  // user.save()
   res.send("Hello World!");
 });
 

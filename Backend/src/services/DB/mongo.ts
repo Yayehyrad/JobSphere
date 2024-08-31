@@ -7,5 +7,5 @@ export = async function mongo(): Promise<void> {
   mongoose.connection.on("error", (err: Error) => {
     console.log(`MongoDB connection error: ${err}`);
   });
-  await mongoose.connect(process.env.MONGODB_URI || "", {});
+  await mongoose.connect(process.env.MONGODB_URI || "", {}); 
 };
